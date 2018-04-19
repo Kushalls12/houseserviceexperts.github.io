@@ -340,18 +340,21 @@ section .panel-heading{
 	position:relative;
 	font-size: 26px;
 	font-weight:700;
+	color: #000000#service_banner;
 	line-height: 20px;
 }
 #banner .panel-heading{
 	font-size: 45px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
+
 	margin-bottom: 0;
 	
 }
 #banner .caption {
     font-size: 18px;
     line-height: 34px;
+    color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 }
@@ -1286,33 +1289,45 @@ box-shadow:         inset 0px 6px 27px 0px rgba(0, 0, 0, 0.87);
 }
 
 /*===============================  Service Detail  ===============================*/
-#service_banner {
-    background:url("../images/service_detail/service_banner.jpg") repeat scroll center 0 / cover ;
+#service_banner1 {
+    background:url("../images/banner_homecleaning.jpg") repeat scroll center 0 / cover ;
+    color: #fff;
+    padding: 90px 0 100px;
+    position: relative;
+}
+#service_banner2 {
+    background:url("../images/banner_painting.jpg") repeat scroll center 0 / cover ;
+    color: #fff;
+    padding: 90px 0 100px;
+    position: relative;
+}
+#service_banner3 {
+    background:url("../images/banner_carpentry.jpg") repeat scroll center 0 / cover ;
+    color: #fff;
+    padding: 90px 0 100px;
+    position: relative;
+}
+#service_banner4 {
+    background:url("../images/banner_celing.jpg") repeat scroll center 0 / cover ;
+    color: #fff;
+    padding: 90px 0 100px;
+    position: relative;
+}
+#service_banner5 {
+    background:url("../images/banner_purifier.jpg") repeat scroll center 0 / cover ;
+    color: #fff;
+    padding: 90px 0 100px;
+    position: relative;
+}
+#service_banner6 {
+    background:url("../images/banner_al.jpg") repeat scroll center 0 / cover ;
     color: #fff;
     padding: 90px 0 100px;
     position: relative;
 }
 
-.service_banner_layer::before {
 
-background: rgba(63,184,232,1);
-background: -moz-linear-gradient(left, rgba(63,184,232,1) 0%, rgba(40,220,234,0.79) 62%, rgba(35,228,235,0.79) 76%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(63,184,232,1)), color-stop(62%, rgba(40,220,234,0.79)), color-stop(76%, rgba(35,228,235,0.79)));
-background: -webkit-linear-gradient(left, rgba(63,184,232,1) 0%, rgba(40,220,234,0.79) 62%, rgba(35,228,235,0.79) 76%);
-background: -o-linear-gradient(left, rgba(63,184,232,1) 0%, rgba(40,220,234,0.79) 62%, rgba(35,228,235,0.79) 76%);
-background: -ms-linear-gradient(left, rgba(63,184,232,1) 0%, rgba(40,220,234,0.79) 62%, rgba(35,228,235,0.79) 76%);
-background: linear-gradient(to right, rgba(63,184,232,1) 0%, rgba(40,220,234,0.79) 62%, rgba(35,228,235,0.79) 76%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fb8e8', endColorstr='#23e4eb', GradientType=1 );
 
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-    min-height: 264px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
 .banner_content {
     position: relative;
 }
